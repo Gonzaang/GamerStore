@@ -1,0 +1,32 @@
+.menu {
+    padding: 0%;
+}
+.menu li {
+    display: inline;
+    position: relative;
+    top: 0px;
+}
+.menu li a {
+    font-family: 'Khula', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    float: right;
+    color: grey;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);      
+}
+.menu li a:hover {
+    margin-top: -2;
+    padding-bottom: 12px;
+    opacity:1;
+    transform: translateY(15px)
+    }
+.titulo{
+    font-family: 'Khula', sans-serif;
+    font-size: 50px;
+    display: flex;
+    padding-left: 20px;
+
+
+}
